@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use dejai2 or its generated curriculum content, please cite it using this metadata."
+title: "dejai2: Physics Note Generator"
+abstract: >
+  dejai2 is a dual-licensed framework for generating structured, operator-based
+  physics curriculum content. The SOFTWARE is released under the MIT License.
+  The GENERATED CURRICULUM DATA (Concepts, Formulas, Prerequisites, Markdown notes,
+  content graphs) is licensed under CC BY-NC-SA 4.0. See DATA_LICENSE.md for details.
+authors:
+  - family-names: "Ragasa"
+    given-names: "Eugene J."
+    affiliation: "Independent Researcher (Manila, Philippines)"
+version: "0.1.0"
+license: "MIT"
+repository-code: "https://github.com/eragasa/dejai2"
+keywords:
+  - physics
+  - computational physics
+  - solid-state physics
+  - educational software
+  - pedagogy
+  - operator theory
+  - curriculum generation
+
