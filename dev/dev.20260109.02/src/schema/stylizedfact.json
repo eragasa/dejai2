@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dejai.schema.stylized_fact.1.json",
+  "title": "StylizedFact",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["key", "title", "statement", "description", "claim"],
+  "properties": {
+    "key": {
+      "type": "string",
+      "description": "Stable identifier (project-defined)."
+    },
+    "title": {
+      "type": "string",
+      "description": "Short label for the fact."
+    },
+    "statement": {
+      "type": "string",
+      "description": "Observable property."
+    },
+    "description": {
+      "type": "string",
+      "description": "How it manifests."
+    },
+    "claim": {
+      "type": "string",
+      "description": "Falsifiable proposition derived from the observation."
+    }
+  }
+}

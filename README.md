@@ -12,6 +12,9 @@ It targets pedagogy (solid state, materials) and modular research workflows.
 - Cheap hosting; clear observability
 
 ## Repo map (planned)
+- `journal/`
+	- [[dejai2.20260109]]
+	- 
 - `apps/api/` — FastAPI service
 - `agent/` — core loop, tools, rag, safety, config
 - `notes/` — (to link with Obsidian; see ADR-0002 later)
